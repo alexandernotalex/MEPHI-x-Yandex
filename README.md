@@ -1,2 +1,2 @@
-# MIPHI x Yandex
+# MEPHI x Yandex
  
