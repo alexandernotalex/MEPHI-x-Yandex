@@ -26,3 +26,9 @@ def parse_log_file(log_path):
         raise FileNotFoundError(f"Log file not found at path: {log_path}")
 
     return counts
+
+try:
+    log_counts = parse_log_file('server.log')
+    print("Статистика логов:", log_counts)
+except FileNotFoundError as e:
+    print(e)
